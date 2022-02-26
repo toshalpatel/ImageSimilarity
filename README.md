@@ -5,8 +5,8 @@ Finds the image similarity measure between images using AutoEncoder. The encoder
 The encoder and decoder models are trained on the sample dataset and based on the best encoder model saved, the feature embeddings are created. Using cosine distance, we can get a clear idea of which image is closer, i.e., more similar to the True/ Query image.
 
 For the sake of example, the true image and the resulting similarities of various sample images are shown below.
-
-
+![alt text](https://github.com/toshalpatel/ImageSimilarity/blob/main/data/true_img.png?raw=true)
+![alt text](https://github.com/toshalpatel/ImageSimilarity/blob/main/results/img_similarity_image_autoencoder.png?raw=true)
 
 For the sake of comparision, OpenCV similarity is also calculated separately which can be seen in `results`.
 
